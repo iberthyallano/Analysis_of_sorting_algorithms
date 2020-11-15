@@ -38,8 +38,17 @@ $ node Main.js
 
 <br>
 
+### Como contribuir:
+
+- Faça um Fork desse repositório,
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
+
+<br>
+
 ### Pretenções para o projeto<br>
-Realizar toda a análise das tabelas geradas atravês de Python ou R
+Realizar toda a análise das tabelas geradas através de Python ou R
 
 <br>
 
