@@ -4,14 +4,14 @@
 
 <br>
 
-### O que é um algoritmo de ordenação?<br>
+### O que é um algoritmo de ordenação?
 <p>
   É um algoritmo que coloca os elementos de uma dada ordem em outras palavras, efetua sua ordenação completa ou parcial. As ordens mais usadas são a numérica e a lexicográfica onde podem ser de forma crescente ou decrescente.A aprincipal razão da sua existência é a possíbilidade de se acessar os dados de fomar mais eficiente apos sua ordenação
 </p>
 
 <br>
 
-### Quais as tecnologias utilizadas:
+### Tecnologias utilizadas:
 O projeto foi desenvolvido com as seguintes tecnologias:
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/en/)
@@ -47,12 +47,12 @@ $ node Main.js
 
 <br>
 
-### Pretenções para o projeto<br>
+### Pretenções para o projeto:
 Realizar toda a análise das tabelas geradas através de Python ou R
 
 <br>
 
-### License
+### License:
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
