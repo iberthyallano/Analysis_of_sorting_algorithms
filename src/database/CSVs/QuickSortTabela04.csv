@@ -1,4 +1,4 @@
-tamanhoData,aleatorio,crescente,decrescente
+dateSize,random,growing,degrowing
 10000,0.62254,0.67302,0.77837
 20000,0.1179394,0.145204,0.119594
 30000,0.222068,0.180539,0.306681

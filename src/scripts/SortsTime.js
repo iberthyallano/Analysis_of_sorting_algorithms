@@ -9,7 +9,7 @@ function SortsTime(name, length, func, setData = false){
 	var hrend = process.hrtime(hrstart);
 	// console.log(ndata);
 	if(setData){
-		files.setDatas(["crescente", "decrescente"], ndata);
+		files.setDatas(["growing", "degrowing"], ndata);
 		return;
 	}
 	

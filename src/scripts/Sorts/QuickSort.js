@@ -1,24 +1,24 @@
-function QuickSort(data, inferior, superior) {
+function QuickSort(data, bottom, top) {
     const copy = [ ...data ];
-    if (inferior < superior) {
-      let pivo = copy[superior];
+    if (bottom < top) {
+      let pivot = copy[top];
       let i, j;
-      i = inferior - 1;
-      for (j = inferior; j <= superior - 1; j++) {
-        if (copy[j] <= pivo) {
+      i = bottom - 1;
+      for (j = bottom; j <= top - 1; j++) {
+        if (copy[j] <= pivot) {
           i++;
           let aux = copy[j];
           copy[j] = copy[i];
           copy[i] = aux;
         }
       }
-      let aux = copy[superior];
-      copy[superior] = copy[i + 1];
+      let aux = copy[top];
+      copy[top] = copy[i + 1];
       copy[i + 1] = aux;
-      pivo_pos = i + 1;
+      pivot_pos = i + 1;
 
-      QuickSort(copy, inferior, pivo_pos - 1);
-      QuickSort(copy, pivo_pos + 1, superior);
+      QuickSort(copy, bottom, pivot_pos - 1);
+      QuickSort(copy, pivot_pos + 1, top);
     }
 }
 module.exports = QuickSort;

@@ -5,8 +5,7 @@ class ManipulateFiles{
     }
 
     getData(name){
-        const fname = `./src/database/${name}.dat`;
-        return this.fsnp.readFileSync(fname, "utf-8").split("\n").map(Number);
+        return this.fsnp.readFileSync(`./src/database/${name}.dat`, "utf-8").split("\n").map(Number);
     } 
 
     setDatas(name, data){
@@ -24,7 +23,7 @@ class ManipulateFiles{
     }
     
     createCSV(name){
-        this.fsnp.writeFileSync(`./src/database/CSVs/${name}`, ["tamanhoData", "aleatorio", "crescente", "decrescente"]+'\n', err => {if (err) throw err;});
+        this.fsnp.writeFileSync(`./src/database/CSVs/${name}`, ["dateSize", "random", "growing", "degrowing"]+'\n', err => {if (err) throw err;});
     }
 
 }

@@ -9,14 +9,14 @@ const MergeSort = require('./src/scripts/Sorts/MergeSort');
 
 async function main(totalTables = 5){
 	let files = new ManipulateFiles();
-	let database = ["aleatorio", "crescente", "decrescente"];
+	let database = ["random", "growing", "degrowing"];
 	let quantities = [10000,20000,30000,100000,200000,300000,1000000];
 	let funcs = [BubbleSort, InsertionSort, QuickSort, SelectionSort, MergeSort];
 
 	let totalDB = await files.listarArquivos('./src/database');
 
 	if(totalDB.length-2 === 0){
-		SortsTime("aleatorio", 1000000, MergeSort, true);
+		SortsTime("random", 1000000, MergeSort, true);
 	}
 
 	for(let table = 0; table < totalTables; table++){

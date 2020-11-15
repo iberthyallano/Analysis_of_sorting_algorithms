@@ -1,9 +1,9 @@
-function merge(esquerda, direita){
-    let result = [], i_esquerda = 0, i_direita = 0;
-    while(i_esquerda < esquerda.length && i_direita < direita.length){
-        esquerda[i_esquerda] < direita[i_direita] ? result.push(esquerda[i_esquerda++]) : result.push(direita[i_direita++]);
+function merge(left, right){
+    let result = [], i_left = 0, i_right = 0;
+    while(i_left < left.length && i_right < right.length){
+        left[i_left] < right[i_right] ? result.push(left[i_left++]) : result.push(right[i_right++]);
     }
-    return result.concat(esquerda.slice(i_esquerda), direita.slice(i_direita));
+    return result.concat(left.slice(i_left), right.slice(i_right));
 }
 
 function MergeSort(data){
@@ -11,9 +11,9 @@ function MergeSort(data){
     if(copy.length <= 1){
         return copy;
       }
-      let meio = copy.length >> 1;
-      let esquerda = copy.slice(0, meio);
-      let direita = copy.slice(meio);
-      return merge(MergeSort(esquerda), MergeSort(direita));
+      let middle = copy.length >> 1;
+      let left = copy.slice(0, middle);
+      let right = copy.slice(middle);
+      return merge(MergeSort(left), MergeSort(right));
 }
 module.exports = MergeSort;
