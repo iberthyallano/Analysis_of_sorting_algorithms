@@ -11,7 +11,7 @@
 
 <br>
 
-### Quais as tecnologias utilizadas:
+### Tecnologias utilizadas:
 O projeto foi desenvolvido com as seguintes tecnologias:
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/en/)
