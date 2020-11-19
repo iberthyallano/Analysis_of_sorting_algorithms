@@ -1,0 +1,24 @@
+{
+  "name": "Analysis_of_algorithms",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">   Analysis of sorting algorithms </h1>",
+  "main": "Main.js",
+  "dependencies": {
+    "node": "^15.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iberthyallano/Analysis_of_sorting_algorithms.git"
+  },
+  "keywords": [],
+  "author": "Iberthy Allano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iberthyallano/Analysis_of_sorting_algorithms/issues"
+  },
+  "homepage": "https://github.com/iberthyallano/Analysis_of_sorting_algorithms#readme"
+}

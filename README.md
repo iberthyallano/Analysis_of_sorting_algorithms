@@ -18,11 +18,22 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
-### Como utilizar o projeto:
+### Como criar um projeto do zero:
 - ### Pré-requisitos
 
   - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
   - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+
+```sh
+  $ npx gitignore node
+  $ npm init -y
+  $ git init
+  $ npm install node
+```
+
+<br>
+
+### Como utilizar o projeto:
 
 1. Faça um clone :
 
@@ -48,7 +59,7 @@ $ node Main.js
 <br>
 
 ### Pretenções para o projeto:
-Realizar toda a análise das tabelas geradas através de Python ou R
+Realizar toda a análise das tabelas geradas através de Python, R, ou JavaScript
 
 <br>
 
@@ -60,5 +71,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 <h4 align="center">
-    Feito por <a href="https://www.linkedin.com/in/iberthy-allano-bba4771a4" target="_blank"> Iberthy Allano</a>.
+    Feito por <a href="https://www.linkedin.com/in/iberthy-allano-bba4771a4" target="_blank">Iberthy Allano</a>.
 </h4>
