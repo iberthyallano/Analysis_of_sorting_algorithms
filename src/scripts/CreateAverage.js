@@ -2,7 +2,7 @@ const ManipulateFiles = require('./ManipulateFiles');
 
 async function CreateAverage(){
     let files = new ManipulateFiles();   
-    await files.createDIR("__Mean__");
+    await files.createDIR("__Average__");
 
     let dir = ["BubbleSort", "InsertionSort", "QuickSort", "SelectionSort", "MergeSort"];
     let order = ["random", "growing", "degrowing"];
