@@ -1,6 +1,6 @@
 const ManipulateFiles = require('./src/scripts/ManipulateFiles');
 const SortsTime = require('./src/scripts/SortsTime');
-const CreateMean = require('./src/scripts/CreateMean');
+const CreateAverage = require('./src/scripts/CreateAverage');
 
 const BubbleSort = require('./src/scripts/Sorts/BubbleSort');
 const InsertionSort = require('./src/scripts/Sorts/InsertionSort');
@@ -33,7 +33,7 @@ async function main(totalTables = 5){
 		await Start(funcs, quantities, database, table);	
     }
 
-    // CreateMean();
+    // CreateAverage();
 }
 
 async function Start(funcs, quantities, database, table){

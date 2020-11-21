@@ -1,6 +1,6 @@
-const ManipulateFiles = require('../scripts/ManipulateFiles');
+const ManipulateFiles = require('./ManipulateFiles');
 
-async function CreateMean(){
+async function CreateAverage(){
     let files = new ManipulateFiles();   
     await files.createDIR("__Mean__");
 
@@ -24,7 +24,4 @@ async function CreateMean(){
 //     console.log(media*1000000000);
     console.log(parseFloat((files.getCSV(dir[0], totalDirCsv[0]).split("\n").splice(1,8))[1].split(",").splice(1,1)));
 }
-module.exports = CreateMean;
-
-
-
+module.exports = CreateAverage;
