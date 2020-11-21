@@ -7,7 +7,7 @@ function merge(left, right){
 }
 
 function MergeSort(data){
-    const copy = [ ...data ];
+    let copy = [ ...data ];
     if(copy.length <= 1){
         return copy;
       }

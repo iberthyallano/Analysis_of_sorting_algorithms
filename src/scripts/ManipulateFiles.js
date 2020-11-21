@@ -17,6 +17,10 @@ class ManipulateFiles{
         let listaDeArquivos = await this.fscp.readdir(diretorio);
         return listaDeArquivos;
     }
+
+    getCSV(dirrectory, name){
+        return this.fsnp.readFileSync(`./src/database/CSVs/${dirrectory}/${name}`, "utf-8");
+    } 
     
     setCSV(send, table){	
         this.fsnp.appendFileSync(`./src/database/CSVs/${send[0]}/${send[0]}Tabela0${table+1}.csv`, [send[4], send.slice(1,4)+'\n'], err => {if (err) throw err;});

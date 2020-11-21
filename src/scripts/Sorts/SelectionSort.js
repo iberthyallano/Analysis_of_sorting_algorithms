@@ -1,5 +1,5 @@
 function SelectionSort(data){
-    const copy = [ ...data ];
+    let copy = [ ...data ];
     for(let i = 0; i < copy.length; i++){
         let lowest_index = i;
         for(let j = i; j < copy.length; j++){

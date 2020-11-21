@@ -1,5 +1,5 @@
 function InsertionSort(data){
-    const copy = [ ...data ];
+    let copy = [ ...data ];
     for(let i = 1; i < copy.length; i++){
         let chosen = copy[i];
         let j = i-1;

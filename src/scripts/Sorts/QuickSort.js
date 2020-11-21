@@ -1,5 +1,5 @@
 function QuickSort(data, bottom, top) {
-    const copy = [ ...data ];
+    let copy = [ ...data ];
     if (bottom < top) {
       let pivot = copy[top];
       let i, j;

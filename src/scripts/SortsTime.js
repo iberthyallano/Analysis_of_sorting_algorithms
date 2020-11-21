@@ -5,7 +5,7 @@ function SortsTime(name, length, func, setData = false){
 	let data = files.getData(name).slice(0, length);
 	// console.log(data);
 	var hrstart = process.hrtime();
-	let ndata = func(data);
+	let	ndata = func(data);
 	var hrend = process.hrtime(hrstart);
 	// console.log(ndata);
 	if(setData){
@@ -17,7 +17,7 @@ function SortsTime(name, length, func, setData = false){
 		name_function : func.name,
 		name_database: name,
 		length_database: length,
-		runtime:(hrend[0]+'.'+hrend[1])
+		runtime:(hrend[0]+(hrend[1]/1000000000))//segundos
 	}
 }
 
