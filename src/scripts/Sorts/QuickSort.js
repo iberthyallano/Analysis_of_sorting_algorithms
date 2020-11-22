@@ -1,4 +1,4 @@
-function QuickSort(data, bottom, top) {
+function QuickSort(data, bottom = 0, top = data.length) {
     let copy = [ ...data ];
     if (bottom < top) {
       let pivot = copy[top];
