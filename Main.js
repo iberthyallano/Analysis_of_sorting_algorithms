@@ -1,6 +1,6 @@
 const ManipulateFiles = require('./src/scripts/ManipulateFiles');
 const SortsTime = require('./src/scripts/SortsTime');
-const CreateAverage = require('./src/scripts/CreateAverage');
+// const CreateAverage = require('./src/scripts/CreateAverage');
 
 const BubbleSort = require('./src/scripts/Sorts/BubbleSort');
 const InsertionSort = require('./src/scripts/Sorts/InsertionSort');
